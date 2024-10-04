@@ -267,3 +267,7 @@ body.dark-mode .page-info {
         object-fit: cover;
     }
 }
+
+.sidebar .welcome-message {
+    margin-bottom: 3rem;
+}

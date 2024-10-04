@@ -23,7 +23,10 @@
                         <label for="password" class="form-label">Password</label>
                         <input type="password" name="password" id="password" class="form-control" required>
                     </div>
-                    <button type="submit" class="btn btn-dark">Login</button> <!-- Updated button -->
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-dark">Login as User</button> <!-- Standard login button -->
+                    </div>
+                    <a href="login-guest.php" class="btn btn-dark">Login as Guest</a> <!-- Guest login button -->
                 </form>
             </div>
         </div>
