@@ -1,0 +1,269 @@
+body {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Prevent horizontal scroll during animation */
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px; /* Set a fixed width */
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: -250px; /* Start off-screen */
+    overflow-x: hidden;
+    transition: 0.3s ease-out; /* Smooth transition */
+    padding-top: 60px;
+}
+
+body.light-mode .sidebar {
+    background-color: #f8f9fa;
+}
+
+body.dark-mode .sidebar {
+    background-color: #242424;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    font-family: Inter; 
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    transition: 0.3s;
+}
+
+body.light-mode .sidebar a {
+    color: #333333;
+}
+
+body.dark-mode .sidebar a {
+    color: #ffffff;
+}
+
+.sidebar a:hover {
+    color: #007bff;
+}
+
+.openbtn {
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1031;
+    transition: 0.3s ease-out; /* Match sidebar transition */
+}
+
+body.light-mode .openbtn {
+    color: #333333;
+}
+
+body.dark-mode .openbtn {
+    color: #ffffff;
+}
+
+.content-wrapper {
+    transition: margin-left 0.3s ease-out; /* Match sidebar transition */
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+#main {
+    max-width: 800px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1031;
+}
+
+.theme-toggle i {
+    font-size: 20px;
+    color: white;
+}
+
+body.light-mode .theme-toggle .fa-sun {
+    display: none;
+}
+
+body.light-mode .theme-toggle .fa-moon {
+    display: block;
+}
+
+body.dark-mode .theme-toggle .fa-sun {
+    display: block;
+}
+
+body.dark-mode .theme-toggle .fa-moon {
+    display: none;
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 7rem;
+    color: currentColor; /* This will make the icon inherit the text color */
+}
+
+body.light-mode .profile-icon {
+    color: #333333; /* Match light mode text color */
+}
+
+body.dark-mode .profile-icon {
+    color: #ffffff; /* Match dark mode text color */
+}
+
+.page-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.page-name {
+    font-size: 2rem;
+    font-weight: 5  00;
+    margin-bottom: 1rem;
+    
+}
+
+.page-info {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #6c757d; /* A slightly muted color */
+}
+
+.page-content {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.landing-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.landing-name {
+    font-size: 2rem;
+    font-weight: 5  00;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.landing-info {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: #6c757d; /* A slightly muted color */
+}
+
+.landing-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.login-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.login-username {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.login-password {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.login-error {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: red;
+}
+
+.btn-dark {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+/* Dark mode specific styles */
+body.dark-mode .page-info {
+    color: #adb5bd; /* Lighter color for dark mode */
+}
+
+.datetime {
+    font-size: 10px;
+}
+
+.login-form {
+    width: 400px; /* Set a fixed width for the form */
+}
+
+#image-section {
+    position: relative; /* For any overlays or text */
+}
+
+#info-section {
+    padding: 20px; /* Add padding for better spacing */
+}
+
+@media (max-width: 768px) {
+    #image-section {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
