@@ -155,6 +155,13 @@ body.dark-mode .profile-icon {
     margin-top: 2rem;
 }
 
+.page-header-ts {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+}
+
 .page-header-resume-start {
     font-size: 2.5rem;
     font-weight: 700;
