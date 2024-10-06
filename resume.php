@@ -9,14 +9,19 @@
                 <div class="col-lg-8 col-md-10" id="main">
                     <!-- SVG Profile Icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="profile-icon" viewBox="0 0 16 16">
-                        <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"/>
-                        <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
+                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
                     </svg>
-                    <h1 class="page-header">Personal Portfolio Website</h1>
+                    <!-- Header -->
+                    <h1 class="page-header">My Resume</h1>
                     <h2 class="page-name">Hi, I am John Esperancilla</h2>
                     <h5 class="page-info">Computer Science Student - USLS</h5>
                     <p class="page-content">This is a simple example of a website with a collapsible sidebar and theme toggle using PHP, HTML, CSS, and JavaScript.</p>
                 </div>
+                <!-- Horizontal Line -->
+                <?php include 'php-sections/horizontal.php'?>
+                <!-- Downloadable Resume -->
+                <?php include 'php-sections/resume-download.php'?>
             </div>
         </div>
     </div>

@@ -1,0 +1,1 @@
+<hr style = "margin: 2rem 0; width: 70%; border: none; border-top: 1px solid #ffffff">

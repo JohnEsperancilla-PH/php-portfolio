@@ -129,8 +129,6 @@ body.dark-mode .theme-toggle .fa-moon {
 }
 
 .profile-icon {
-    width: 50px;
-    height: 50px;
     margin-top: 7rem;
     color: currentColor; /* This will make the icon inherit the text color */
 }
@@ -148,6 +146,34 @@ body.dark-mode .profile-icon {
     font-weight: 700;
     margin-bottom: 3rem;
     margin-top: 3rem;
+}
+
+.page-header-resume {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.page-header-resume-start {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.page-content-resume {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.page-content-resume-end {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: -1rem;
+    margin-bottom: 10rem;
 }
 
 .page-name {
@@ -266,8 +292,4 @@ body.dark-mode .page-info {
         height: 300px;
         object-fit: cover;
     }
-}
-
-.sidebar .welcome-message {
-    margin-bottom: 3rem;
 }
