@@ -49,4 +49,4 @@ themeToggle.addEventListener('click', function() {
 // Ensure sidebar is closed by default
 window.onload = function() {
     closeNav();
-};
+};s

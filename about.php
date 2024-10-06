@@ -24,6 +24,12 @@
                     <!-- Tech Stack -->
                     <?php include 'php-sections/tech-stack.php'?>
                 </div>
+                <!-- Horizontal Line -->
+                <?php include 'php-sections/horizontal.php'?>
+
+                <div class="col-lg-8 col-md-10" id="main">
+                    
+                </div>
             </div>
         </div>
     </div>
@@ -37,5 +43,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+
+    <?php include 'php-sections/footer.php'; ?>
 </body>
 </html>

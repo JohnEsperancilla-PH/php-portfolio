@@ -1,1 +1,1 @@
-<hr style="margin: 2rem 0; width: 60%; border: none; border-top: 3px solid currentColor;">
+<hr style="margin-top: 2rem; width: 60%; border: none; border-top: 3px solid currentColor;">

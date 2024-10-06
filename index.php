@@ -1,4 +1,4 @@
-<?php include 'php-sections/session_check.php';?>
+<?php include 'php-sections/session-check.php';?>
 <?php include 'php-sections/loader.php';?>
 <?php include 'php-sections/header.php';?>
 <?php include 'php-sections/sidebar.php';?>
@@ -28,5 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+
+    <?php include 'php-sections/footer.php'; ?>
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-family: "Poppins", sans-serif;
     transition: background-color 0.3s, color 0.3s;
     min-height: 100vh;
     display: flex;
@@ -18,6 +18,7 @@ body.dark-mode {
 }
 
 .sidebar {
+    font-family: "Poppins", sans-serif;
     height: 100%;
     width: 250px; /* Set a fixed width */
     position: fixed;
@@ -30,7 +31,7 @@ body.dark-mode {
 }
 
 body.light-mode .sidebar {
-    background-color: #f8f9fa;
+    background-color: #eeeeee;
 }
 
 body.dark-mode .sidebar {
@@ -39,7 +40,7 @@ body.dark-mode .sidebar {
 
 .sidebar a {
     padding: 8px 8px 8px 32px;
-    font-family: Inter; 
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     text-decoration: none;
     font-size: 22px;
@@ -299,4 +300,25 @@ body.dark-mode .page-info {
         height: 300px;
         object-fit: cover;
     }
+}
+
+.skill-bar {
+    margin-bottom: 1rem;
+}
+
+.skill-bar span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #e9ecef; /* Light background for progress */
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #007bff; /* Change color as needed */
+    height: 20px;
+    transition: width 1s ease; /* Smooth transition for width change */
 }
