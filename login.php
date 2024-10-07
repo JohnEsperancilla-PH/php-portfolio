@@ -5,8 +5,23 @@
 <body class="dark-mode">
     <div class="container-fluid">
         <div class="row justify-content-center" style="height: 100vh;">
-            <div class="col-lg-6 col-md-6 p-0" id="image-section" style="background-image: url(assets/images/login-page-1.jpg); background-size: cover; background-position: center;">
-                <!-- Optional: You can add an overlay if needed -->
+            <div class="col-lg-6 col-md-6 p-0" id="image-section">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: url(assets/images/login-page-1.jpg); background-size: cover; background-position: center; height: 100vh;">
+                            <!-- Optional: You can add an overlay if needed -->
+                        </div>
+                        <div class="carousel-item" style="background-image: url(assets/images/login-page-2.png); background-size: cover; background-position: center; height: 100vh;">
+                            <!-- Optional: You can add an overlay if needed -->
+                        </div>
+                        <div class="carousel-item" style="background-image: url(assets/images/login-page-3.png); background-size: cover; background-position: center; height: 100vh;">
+                            <!-- Optional: You can add an overlay if needed -->
+                        </div>
+                        <div class="carousel-item" style="background-image: url(assets/images/login-page-4.png); background-size: cover; background-position: center; height: 100vh;">
+                            <!-- Optional: You can add an overlay if needed -->
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 col-md-6 d-flex flex-column justify-content-center" id="info-section">
                 <h1 class="login-header">Login</h1>
