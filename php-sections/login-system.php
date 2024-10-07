@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
 
     // Validate credentials
-    if ($username === 'john' && $password === '123') {
+    if ($username === 'John' && $password === '123') {
         $_SESSION['username'] = $username; // Set session variable
         header('Location: index.php'); // Redirect to index page after successful login
         exit();
