@@ -1,3 +1,4 @@
+<?php $title = "Home - John Esperancilla";?> <!-- Title for this page -->
 <?php include 'php-sections/session-check.php';?>
 <?php include 'php-sections/loader.php';?>
 <?php include 'php-sections/header.php';?>

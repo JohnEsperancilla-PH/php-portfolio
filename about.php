@@ -1,3 +1,4 @@
+<?php $title = "About Me - John Esperancilla";?> <!-- Title for this page -->
 <?php include 'php-sections/loader.php';?>
 <?php include 'php-sections/header.php';?>
 <?php include 'php-sections/sidebar.php';?>
@@ -27,14 +28,10 @@
                 <!-- Horizontal Line -->
                 <?php include 'php-sections/horizontal.php'?>
 
-                <div class="col-lg-8 col-md-10" id="main">
-                    
-                </div>
+                <div class="col-lg-8 col-md-10" id="main"></div>
             </div>
         </div>
     </div>
-
-    
 
     <?php include 'php-sections/theme.php';?>
 
