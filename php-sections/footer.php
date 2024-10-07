@@ -4,9 +4,9 @@
         <div class="container text-center">
             <p class="footer-text">© <?php echo date("Y"); ?> John Esperancilla. All rights reserved.</p>
             <div class="social-links">
-                <a href="https://github.com/yourusername" target="_blank" class="footer-link">GitHub</a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" class="footer-link">Facebook</a>
-                <a href="https://twitter.com/yourusername" target="_blank" class="footer-link">Instagram</a>
+                <a href="https://github.com/JohnEsperancilla-PH/" target="_blank" class="footer-link">GitHub</a>
+                <a href="https://www.facebook.com/janlunard/" target="_blank" class="footer-link">Facebook</a>
+                <a href="https://www.instagram.com/john.esperancilla/" target="_blank" class="footer-link">Instagram</a>
             </div>
         </div>
     </div>
