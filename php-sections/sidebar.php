@@ -17,6 +17,7 @@
     <a href="about.php">About</a>
     <a href="resume.php">Resume</a>
     <a href="#">Contact</a>
+    <a href="portfolio.php">Portfolio</a>
 
     <!-- Logout Button -->
     <a class="nav-item">
