@@ -14,5 +14,3 @@
     exit();
 
 ?>
-
-<?php include 'end-session.php';?>
