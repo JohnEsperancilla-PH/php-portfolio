@@ -16,7 +16,7 @@
                     <h1 class="page-header">Personal Portfolio Website</h1>
                     <h2 class="page-name">Hi, I am John Esperancilla</h2>
                     <h5 class="page-info">Computer Science Student - USLS</h5>
-                    <p class="page-content">This is a simple example of a website with a collapsible sidebar and theme toggle using PHP, HTML, CSS, and JavaScript.</p>
+                    <p class="page-content">Here are some quick facts about me!</p>
                 </div>
                 <!-- Horizontal Line -->
                 <?php include 'php-sections/horizontal.php'?>
@@ -24,6 +24,12 @@
                 <div class="col-lg-8 col-md-10" id="main">
                     <!-- Tech Stack -->
                     <?php include 'php-sections/tech-stack.php'?>
+                </div>
+                <!-- Horizontal Line -->
+                <?php include 'php-sections/horizontal.php'?>
+                <div class="col-lg-8 col-md-10" id="main">
+                    <!-- Tech Stack -->
+                    <?php include 'php-sections/hobbies.php'?>
                 </div>
                 <!-- Horizontal Line -->
                 <?php include 'php-sections/horizontal.php'?>
